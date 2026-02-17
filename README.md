@@ -9,7 +9,9 @@
 `{
 "error": "сообщение"
 }`
+
 ---
+
 🔹 GET `/health`
 
 Health-check сервиса.
@@ -18,7 +20,9 @@ Health-check сервиса.
 `{
 "status": "ok"
 }`
+
 ---
+
 🔹 GET `/tasks`
 
 Получить список задач.
@@ -33,7 +37,9 @@ Health-check сервиса.
 "created_at": "2026-02-17T12:00:00Z"
 }
 ]`
+
 ---
+
 🔹 POST `/tasks`
 
 Создать новую задачу.
@@ -59,7 +65,9 @@ Health-check сервиса.
 `{
 "error": "title is required"
 }`
+
 ---
+
 🔹 GET `/tasks/{id}`
 
 Получить задачу по ID.
@@ -78,7 +86,9 @@ Health-check сервиса.
 `{
 "error": "task not found"
 }`
+
 ---
+
 🔹 PUT `/tasks/{id}`
 
 Обновить задачу полностью.
@@ -98,7 +108,9 @@ Health-check сервиса.
 "done": true,
 "created_at": "2026-02-17T12:00:00Z"
 }`
+
 ---
+
 🔹 DELETE `/tasks/{id}`
 
 Удалить задачу.
@@ -112,6 +124,7 @@ Health-check сервиса.
 `{
 "error": "task not found"
 }`
+
 ---
 
 ## 🧪 Примеры тестирования (curl)
